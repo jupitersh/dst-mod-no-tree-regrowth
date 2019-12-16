@@ -1,0 +1,1 @@
+GLOBAL.require("components/desolationspawner")._ctor = function() end
