@@ -7,7 +7,7 @@ author = "辣椒小皇纸"
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"
 
-version = "1.1"
+version = "1.2.0"
 
 forumthread = ""
 
@@ -31,5 +31,25 @@ configuration_options =
 						{description = "No", data = false, hover = ""},
 					},
 		default = true,
+	},
+	{
+		name = "disable_moontree_regrowth",
+		label = "Disable Moontree Regrowth",
+		hover = "",
+		options =	{
+						{description = "Yes", data = true, hover = ""},
+						{description = "No", data = false, hover = ""},
+					},
+		default = true,
+	},
+	{
+		name = "disable_mushtree_regrowth",
+		label = "Disable Mushtree Regrowth",
+		hover = "",
+		options =	{
+						{description = "Yes", data = true, hover = ""},
+						{description = "No", data = false, hover = ""},
+					},
+		default = false,
 	},
 }
